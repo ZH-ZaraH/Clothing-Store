@@ -1,6 +1,7 @@
 --This is the the database. c_customers is the parent entity, c_orders is the child entity.--
 CREATE TABLE c_customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
     contact_number VARCHAR(20),
